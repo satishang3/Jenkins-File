@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {                   // Use machine's path
-               PATH = "/opt/maven/bin:${env.PATH}”
+               PATH = "/opt/maven/bin:${env.PATH}"
     }
     stages {                                  //stages where we can mention build.,test,
         stage('Build') {
